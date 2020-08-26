@@ -15,7 +15,7 @@ public class CampoBD {
     private String TipoCampo;
     private boolean Estrangeria;
     
-    public CampoBD(String nomeTabela){
+    public CampoBD(){
         this.NomeTabela = "";
         this.NomeCampo = "";
         this.TipoCampo = "";

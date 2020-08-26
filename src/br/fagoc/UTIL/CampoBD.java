@@ -16,13 +16,15 @@ public class CampoBD {
     private boolean Estrangeria;
     
     public CampoBD(String nomeTabela){
+        this.NomeTabela = "";
+        this.NomeCampo = "";
+        this.TipoCampo = "";
+    }
+    
+    public CampoBD(String nomeTabela){
         this.NomeTabela = nomeTabela;
     }
     
-    public CampoBD(){
-        
-    }
-
     public String getNomeCampo() {
         return NomeCampo;
     }

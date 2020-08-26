@@ -4,8 +4,7 @@
  */
 
 /*
- * PesqCidade.java
- *
+ * @author Thiago Sartori
  * Created on 01/11/2011, 21:19:48
  */
 package br.fagoc.VIEW;
@@ -304,7 +303,7 @@ private void btnAbrirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRS
                     Class partypes[] = {Integer.class};
                     
                     Object arglist[] = new Object[1];  
-                    arglist[0] = new Integer(Codigo);
+                    arglist[0] = Codigo;
                     Method MetodoInvocado;
                     
                     MetodoInvocado = vClasseInstanciada.getMethod("setRetornoConsulta", partypes);
